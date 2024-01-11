@@ -22,6 +22,14 @@ button {
   padding: 0 20px;
 }
 
+.header .container .btn {
+  background-color: red;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+.header .container .btn:hover {
+  background-color: blue;
+}
 .header .container .ss {
   font-family: Poppins;
   font-weight: 400;

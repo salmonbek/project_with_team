@@ -4,6 +4,15 @@
 
 .header {
   .container {
+    .btn {
+      background-color: red;
+      padding: 10px 20px;
+      border-radius: 3px;
+      &:hover {
+        background-color: blue;
+      }
+    }
+
     .ss {
       font-family: Poppins;
       font-weight: 400;
