@@ -16,10 +16,11 @@ button {
 }
 
 .container {
-  max-width: 1597;
+  max-width: 1320px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 160px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 * {
