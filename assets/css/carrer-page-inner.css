@@ -263,3 +263,86 @@ html body {
   font-weight: 500;
   line-height: 24px; /* 150% */
 }
+
+.main .hero {
+  margin-top: 156px;
+}
+.main .hero .container .hero-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.main .hero .container .hero-section-left__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+.main .hero .container .hero-section-left-title1 {
+  color: var(--Black, #232536);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  opacity: 0.87;
+  margin-bottom: 24px;
+}
+.main .hero .container .hero-section-left-title2 {
+  color: var(--Black, #232536);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 58px;
+  margin-bottom: 16px;
+}
+.main .hero .container .hero-section-left-title3 {
+  color: var(--Black, #232536);
+  max-width: 430px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+
+.heero-section-left__flex__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 13px;
+  padding: 20px 32px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#444cfc), to(#444cfc));
+  background: linear-gradient(180deg, #444cfc 0%, #444cfc 100%);
+}
+.heero-section-left__flex__link:hover {
+  background-color: #ffc000;
+  border: 1px solid #ffc000;
+}
+.heero-section-left__flex__link a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
