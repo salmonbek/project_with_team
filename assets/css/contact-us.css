@@ -263,3 +263,8 @@ html body {
   font-weight: 500;
   line-height: 24px; /* 150% */
 }
+
+.site-main .container h1 {
+  font-size: 55px;
+  color: red;
+}
